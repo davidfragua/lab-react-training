@@ -9,10 +9,6 @@ function IdCard(props) {
         <p><b>Gender:</b> {props.people.gender}</p>
         <p><b>Height:</b> {props.people.height}m</p>
         <p><b>Birth:</b> {(props.people.birth).toString()}</p>
-
-
-
-
     </div>
     
 )

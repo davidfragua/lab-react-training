@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
+import Random from './components/Random';
 
 
 const arrPeople =[
@@ -51,7 +52,11 @@ function App() {
     <IdCard people = { arrPeople[0]}/>
     <IdCard people = { arrPeople[1]}/>
 
-    <Greetings  greeting = { greetings }/>
+    <Greetings  greeting = { greetings[0]}/> 
+    <Greetings  greeting = { greetings[1]}/>
+
+    <Random min={1} max={6}/>
+    <Random min={1} max={100}/>
 
 
     </div>

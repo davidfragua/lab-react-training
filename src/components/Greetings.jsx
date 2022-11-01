@@ -6,9 +6,7 @@ function Greetings(props) {
 
   return (
     <div>
-        {/* <p>{props.greetings.lang}</p> */}
-    
-
+        <p>{props.greeting.children}</p>
 
 
     </div>
